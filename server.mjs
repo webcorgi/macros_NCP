@@ -3,10 +3,9 @@ import keySender from 'node-key-sender';
 import clipboardy from 'clipboardy';
 
 /**
- * @name 키보드매크로
- * @description 유저 인증차단해제 (NCP용).
- * 단순 키보드 조작만 가능하며 html 정보 접근은 할 수 없다.
  * @author 김대현
+ * @name 키보드매크로
+ * @description 유저 인증차단해제 (NCP용). 단순 키보드 조작만 가능하며 html 정보 접근은 할 수 없다.
  * @date 24-09-20
  */
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
